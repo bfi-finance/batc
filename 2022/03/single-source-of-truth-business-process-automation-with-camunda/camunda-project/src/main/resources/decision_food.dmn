@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_0g9hna6" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.11.1">
+  <decision id="Decision_1xl2vfs" name="Decision Cuaca">
+    <decisionTable id="DecisionTable_0c5gqh7">
+      <input id="Input_1" camunda:inputVariable="cuaca">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="makanan" typeRef="string" />
+      <rule id="DecisionRule_0ovjl8d">
+        <inputEntry id="UnaryTests_1i0j61z">
+          <text>"HUJAN"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0wmt38h">
+          <text>"indomie"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1bt8zcg">
+        <inputEntry id="UnaryTests_0jkfpgk">
+          <text>"PANAS"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1pvyn6y">
+          <text>"nasi goreng"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_1xl2vfs">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

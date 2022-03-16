@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Hujan",
+          "value": "HUJAN"
+        },
+        {
+          "label": "Panas",
+          "value": "PANAS"
+        }
+      ],
+      "label": "Keadaan Cuaca",
+      "type": "select",
+      "id": "Field_06ch05r",
+      "key": "cuaca",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1gr7g8p"
+}

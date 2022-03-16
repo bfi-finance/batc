@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Ya",
+          "value": "YA"
+        },
+        {
+          "label": "Tidak",
+          "value": "TIDAK"
+        }
+      ],
+      "label": "Lapar?",
+      "type": "select",
+      "id": "Field_1tdqaii",
+      "key": "lapar",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_05p6q21"
+}

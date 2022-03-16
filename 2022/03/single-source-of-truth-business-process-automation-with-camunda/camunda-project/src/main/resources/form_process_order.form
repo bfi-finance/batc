@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Terima",
+          "value": "TERIMA"
+        }
+      ],
+      "label": "Proses",
+      "type": "select",
+      "id": "Field_1nakltk",
+      "key": "proses_order"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1y39j25"
+}
